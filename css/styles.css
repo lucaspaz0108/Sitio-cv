@@ -159,11 +159,14 @@ h1{
 	font-size: 3.5rem;
 	font-weight: 400;
 	margin-top: 20px;
+	text-decoration: underline;
+	text-decoration-color: rgb(109, 161, 234);
 }
 .parrafo_sobremi{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5rem;
+	border-bottom: #000000;
 }
 .datos_personales{
     
@@ -172,7 +175,7 @@ h1{
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .li_dp{
@@ -198,6 +201,8 @@ h1{
     background: #E7EFFB;
     width: auto;
     display: flex;
+	line-height: 50px;
+	align-items: center;
 }
 
 .imgcv{
@@ -206,13 +211,12 @@ h1{
     display: flex;
 	border-radius: 40px;
 	margin-left: 40px;
-
 }
 
 footer{
     margin-top: 20rem;
     background: #DBE9FF;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 }
@@ -220,8 +224,10 @@ footer{
 .spanft{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem
+    font-size: 2rem;
+	display: block;
 }
+
 
 h3{
     font-family: 'MuseoModerno';
@@ -266,14 +272,12 @@ h3{
 
 .recuadro{
 	border-radius: 68px;
-	border-style: inherit;
 	background-color: #E7EFFB;
 }
 
 .div_comp{
 	display: flex;
 	justify-content: left;
-	
 }
 
 .img_soft{
