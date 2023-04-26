@@ -124,7 +124,9 @@ a:visited {
 	background-position: center;
 }
 
-
+input, label{
+    display: none;
+}
 
 .navbar{
     list-style: none;
@@ -354,4 +356,107 @@ h3{
 	font-family: 'MuseoModerno';
 	font-size: 2rem;
 	
+}
+
+@media screen and (max-width:800px) {/*cuando el dispositivo es como máximo de 700px*/
+        
+	
+	input:checked ~ ul{ /*muestra todas el contenido de todas las etiquetas ul */
+		display:none;
+	}
+	
+	
+	input:checked ~ label { /*muestra todo el contenido de todas las etiquetas label */
+		background: #CDEFF5;
+	}
+	
+	nav .navbar {
+		display: flex;
+		flex-direction: column;
+		margin-left: 50px;
+		margin-right: 50px;
+		text-align: center;
+		z-index:1 ;
+	}
+
+	header nav ul li{
+		z-index:1;
+		background-color: #e0eaf6;
+	}
+
+	li{/*elimina el margen  de cada botón */
+		margin: 0px;
+		display: block;
+		
+	}
+	
+	
+	label { /* dibuja la etiqueta ☰  con formato botón */
+		position:absolute;
+		box-sizing: border-box;
+		display: block;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-align: center;
+		user-select: none;
+		background-color: rgb(95, 158, 160);
+		margin-left: 5%;
+		z-index: 1;
+		}
+
+	ul li a{
+		text-decoration: none;
+		color: black;
+	}
+
+	nav .navbar li {
+		font-size: 0.9rem;
+	}
+
+	.rectangulo{
+		height: 80px;
+		
+	}
+
+	h1{
+		font-size: 2rem;
+		margin-top: 10px;
+	}
+
+	.titulo_sobremi{
+		font-size: 1.8rem;
+	}
+
+	.parrafo_sobremi{
+		font-size: 1.3rem;
+	}
+
+	.datos_personales{
+		font-size: 1.8rem;
+	}
+
+	.imgcv{
+		width: 300px;
+		margin: 0;
+	}
+
+	.div_dp{
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.li_dp{
+		font-size: 0.9rem;
+		padding: 0;
+		margin: 0;
+	}
+
+	.spanft{
+		font-size: 1.2rem;
+	}
+
 }
