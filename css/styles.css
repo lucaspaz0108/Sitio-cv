@@ -227,7 +227,7 @@ h1{
 	flex-grow: 1;
 }
 .div_fondo_estudios{
-	background-image: url(/Sitio-cv/img/patron_libros.svg);
+	background-image: url("/Sitio-cv/img/patron_libros.svg");
 }
 .div_estudios{
 	backdrop-filter: blur(5px);
