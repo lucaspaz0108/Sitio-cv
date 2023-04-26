@@ -96,6 +96,28 @@
 	font-style: normal;
 	font-weight: 900;
 }
+
+.portada{
+	width: 600px;
+}
+
+.fondo_code{
+	display: flex;
+	justify-content: center;
+	width: 2000px;
+}
+
+.div_portada{
+	background-image: url("/img/fondoprogramacion.svg");
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
 .navbar{
     list-style: none;
     text-decoration: none;
@@ -103,8 +125,9 @@
     margin-top: 2rem; 
     margin-right: 0rem;
     margin-bottom: 1rem;
-    margin-left: 15rem;
+    margin-left: 11.5rem;
     font-family: 'Montserrat', sans-serif;
+	
 }
 
 .rectangulo{
@@ -130,12 +153,26 @@ h1{
     margin-top: 45px;
 }
 
+.titulo_sobremi{
+	text-align: center;
+	font-family: 'MuseoModerno';
+	font-size: 3.5rem;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.parrafo_sobremi{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
 .datos_personales{
     
     font-weight: 400;
     margin-left: 2rem;
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .li_dp{
@@ -143,7 +180,8 @@ h1{
     padding-top: 15px;
     padding-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 2rem
+    margin-left: 4.5rem;
+	font-size: 1.4rem;
 }
 
 .li_est{
@@ -166,6 +204,9 @@ h1{
     width: 300px;
     height: 300px;
     display: flex;
+	border-radius: 40px;
+	margin-left: 40px;
+
 }
 
 footer{
@@ -238,4 +279,14 @@ h3{
 .img_soft{
 	width: 400px;
 	height: auto;
+}
+
+.div_comp ul li{
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.div_comp h2{
+	font-family: 'MuseoModerno';
 }
