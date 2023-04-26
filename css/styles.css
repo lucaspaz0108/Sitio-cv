@@ -117,7 +117,7 @@ a:visited {
 }
 
 .div_portada{
-	background-image: url("/img/fondoprogramacion.svg");
+	background-image: url("/Sitio-cv/img/fondoprogramacion.svg");
 	display: flex;
 	justify-content: center;
 	background-repeat: no-repeat;
@@ -227,7 +227,7 @@ h1{
 	flex-grow: 1;
 }
 .div_fondo_estudios{
-	background-image: url("/img/patron_libros.svg");
+	background-image: url(/Sitio-cv/img/patron_libros.svg);
 }
 .div_estudios{
 	backdrop-filter: blur(5px);
@@ -549,5 +549,12 @@ h3{
 		text-align: center;
 	}
 
-	.div_fondo_estudios
+	.div_estudios{
+		flex-direction: column;
+	}
+	.li_est{
+		font-size: 1rem;
+		text-align: center;
+		margin: 0;
+	}
 }
