@@ -12,6 +12,7 @@ a:visited {
 	color: black;
   }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 @font-face {
@@ -135,7 +136,7 @@ input, label{
     margin-top: 2rem; 
     margin-right: 0rem;
     margin-bottom: 1rem;
-    margin-left: 11.5rem;
+    margin-left: 3.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -200,8 +201,14 @@ h1{
     margin-left: 4.5rem;
 	font-size: 1.4rem;
 }
-
 .li_est{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4.5rem;
+	font-size: 1.4rem;
+	background-color: white;
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -212,11 +219,25 @@ h1{
 
 .div_dp{
     margin-top: 2.5rem;
-    background: #E7EFFB;
+    background-color: #DBE9FF;
     width: auto;
     display: flex;
 	line-height: 50px;
 	align-items: center;
+	flex-grow: 1;
+}
+.div_fondo_estudios{
+	background-image: url("/img/patron_libros.svg");
+}
+.div_estudios{
+	backdrop-filter: blur(5px);
+    margin-top: 2.5rem;
+    width: auto;
+    display: flex;
+	line-height: 50px;
+	align-items: center;
+	flex-grow: 1;
+	filter: none;
 }
 
 .imgcv{
@@ -230,7 +251,8 @@ h1{
 footer{
     margin-top: 5rem;
     background: #DBE9FF;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -256,7 +278,8 @@ h3{
 
 .img_uade{
     width: 380px;
-    height: 300px;
+    height: auto;
+	background-color: white;
 }
 
 .img_laburo{
@@ -266,7 +289,6 @@ h3{
 .rectangulo_exp{
 	display: flex;
 	justify-content:space-around;
-
 }
 
 
@@ -437,6 +459,7 @@ h3{
 
 	.datos_personales{
 		font-size: 1.8rem;
+		margin-top: 5px;
 	}
 
 	.imgcv{
@@ -459,4 +482,72 @@ h3{
 		font-size: 1.2rem;
 	}
 
+	.datos_personales{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.img_uade{
+		width: 200px;
+		height: auto;
+	}
+	.div_dp{
+		margin-top: 15px;
+	}
+
+	.li_dp{
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.img_laburo{
+		width: 300px;
+		height: auto;
+		margin: 0;
+	}
+
+	.rectangulo_exp{
+		justify-content: center;
+		flex-direction: column;
+	}
+	
+	.rectangulo_2_exp{
+		margin: 0px;
+	}
+
+	.li_exp{
+		text-align: center;
+		font-size: 1.2rem;
+	}
+
+	.container_blandas, .container_hard{
+		flex-direction: column;
+	}
+
+	.img_soft, .img_hard{
+		width: 300px;
+		height: auto;
+	}
+
+	.container_blandas ul li{
+		font-size: 1.3rem;
+		text-align: center;
+	}
+
+	.container_blandas ul h2{
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.container_hard ul li{
+		font-size: 1.3rem;
+		text-align: center;
+	}
+
+	.container_hard ul h2{
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.div_fondo_estudios
 }
