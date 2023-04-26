@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+  }
+  
+a:visited {
+	color: black;
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 @font-face {
@@ -127,7 +135,11 @@
     margin-bottom: 1rem;
     margin-left: 11.5rem;
     font-family: 'Montserrat', sans-serif;
-	
+}
+
+.navbar li a:hover{
+	font-size: 1.3rem;
+	background-color: #81b1ff;
 }
 
 .rectangulo{
@@ -214,7 +226,7 @@ h1{
 }
 
 footer{
-    margin-top: 20rem;
+    margin-top: 5rem;
     background: #DBE9FF;
 	display: block;
 	align-items: center;
@@ -274,23 +286,72 @@ h3{
 	border-radius: 68px;
 	background-color: #E7EFFB;
 }
+.h1_exp{
+	text-decoration: underline;
+	text-decoration-color: rgb(109, 161, 234);
+}
 
-.div_comp{
+.container_habilidades{
+	background-image: linear-gradient(
+  0deg,
+  hsl(240deg 92% 70%) 0%,
+  hsl(223deg 100% 66%) 11%,
+  hsl(213deg 100% 62%) 22%,
+  hsl(207deg 100% 60%) 33%,
+  hsl(204deg 100% 63%) 45%,
+  hsl(202deg 97% 67%) 56%,
+  hsl(200deg 89% 72%) 67%,
+  hsl(198deg 79% 77%) 78%,
+  hsl(194deg 66% 82%) 89%,
+  hsl(190deg 48% 88%) 100%
+);
+}
+.h1_competencias{
+	text-decoration: underline;
+	text-decoration-color: rgb(109, 161, 234);
+}
+.container_blandas{
 	display: flex;
 	justify-content: left;
+	align-items: center;
 }
 
 .img_soft{
-	width: 400px;
+	width: 600px;
 	height: auto;
+	margin-right: 50px;
 }
 
-.div_comp ul li{
+.img_hard{
+	width: 600px;
+}
+
+.container_hard{
+	display: flex;
+	justify-content: right;
+}
+
+.container_blandas ul li{
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
 
 }
 
-.div_comp h2{
+.container_blandas h2{
 	font-family: 'MuseoModerno';
+	font-size: 2rem;
+}
+
+.container_hard ul li{
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+
+}
+
+.container_hard h2{
+	font-family: 'MuseoModerno';
+	font-size: 2rem;
+	
 }
